@@ -1,0 +1,78 @@
+// font-family: 'Inter', sans-serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Ubuntu', sans-serif;
+
+
+// .container{
+//     max-width: 1440px;
+//     margin: 0 auto;
+// }
+
+.bg-home{
+    position: relative;
+}
+
+.bg-home::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), #FFA12B, rgb(255, 255, 255)), url("./assets/bg.png");
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    opacity: 0.5;
+}
+
+//-------------------nav-----------------
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    margin: 0px auto 100px;
+    padding-top: 25px;
+}
+.name a{
+    color: $primary-color;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    img{
+    max-width: 100px;
+   }
+}
+.navegation button{
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: $secundary-color;
+    background-color: $primary-color-alternative;
+    border: none;
+}
+
+//-------------------main-nav-----------------
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        color: $primary-color-alternative;
+        font-size: 40px;
+        font-family: 'Inter',sans-serif;
+    }
+    p{
+        margin-top: 15px;
+    }
+    button{
+        margin-top: 25px;
+    }
+
+}
