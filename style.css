@@ -107,10 +107,13 @@ h1{
 }
 .hero p {
   margin-top: 30px;
-  color: #FFFFFF;
+  color: #F7F7F7;
+  text-shadow: 0.8px 0.8px rgba(0,0,0, .5);
+  font-weight: 600;
 }
+
 .hero button {
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 7px 12px;
   border-radius: 8px;
   color: #FFFFFF;
@@ -1086,6 +1089,43 @@ footer{
   background: linear-gradient(to bottom, rgb(255,255,255) 30%,rgba(255,117,04, 0.3), rgba(255,117,24));
   z-index: -1;
   opacity: 1;
+}
+.btn-whatsapp{
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 100;
+}
+.btn-whatsapp .tooltip-text{
+  visibility: hidden;
+  position: absolute;
+  width: 90px;
+  padding: 3px;
+  border-radius: 5px;
+  text-align: center;
+  top: 20px;
+  left: -105px;
+  color: #Ffffff;
+  background-color: rgba(0,0,0, .4);
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+.btn-whatsapp:hover .tooltip-text{
+  visibility: visible;
+  opacity: 1;
+}
+.btn-whatsapp img{
+  max-width: 70px
+}
+.btn-whatsapp img:hover{
+  transform: scale(1.1);
+  transition: transform 0.4s;
+}
+
+@media screen and (max-width:768px){
+  .btn-whatsapp img{
+    max-width: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

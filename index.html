@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CK-saúde</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     
@@ -18,15 +20,15 @@
         <nav class="container">
             <div class="name"><a class="name-ck" target="_blank" href="https://nurso.com.br/">CK-saúde</a></div>
             <div class="logo"><img src="assets/icon-ck-saude.svg" alt="ícone da ck-saúde"></div>
-            <div class="navegation">
-                <button class="products" href="#">Produtos</button>
+            <div class="navegation" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+                <a href="#products-rent1"><button class="products">Produtos</button></a>
                 <button class="contacts" href="#">Contatos</button>
             </div>
         </nav>
         <main class="hero">
             <h1>PRODUTOS PARA SAÚDE - <strong>VENDA E LOCAÇÃO</strong></h1>
-            <p>Entre em contato para fazer seu orçamento</p>
-            <button class="enter-contact">Entrar em contato</button>
+            <p>ALUGUE ONLINE!</p>
+              <a  class="rent-online" href="https://www.nurso.com.br/" target="_blank"><button class="enter-contact">Ir para a área do cliente</button></a>
         </main>
     </header>
     </div>
@@ -42,7 +44,7 @@
         </div>
     </div>
     
-    <div class="products-rent">
+    <div class="products-rent" id="products-rent1">
         <h4 class="tittle-rent">Alugue agora o equipamento ideal para a sua necessidade:</h4>
         <p class="rent-itens">Oferecemos uma variedade de equipamentos médicos, incluindo camas hospitalares, cadeiras de rodas, muletas, andadores, cadeiras de banho, escadinhas para cama, suportes para soro e colchões pneumáticos.</p>
         <div class="products-cards">
@@ -283,6 +285,16 @@
           </div>
           <p>Copyright&copy; 2023 | Judson Rian  - Todos os direitos reservados.</p>
         </footer>
-        
+
+        <a href="https://api.whatsapp.com/send?phone=55613322-0360&text=Ol%C3%A1,%20gostaria%20de%20algumas%20informa%C3%A7%C3%B5es" 
+        class="btn-whatsapp" 
+        target="_blank"
+        data-aos="zoom-in-up" data-aos-delay="300"
+        >
+          <img src="assets/whatsapp (1).png" alt="Botão whatsapp">
+          <span class="tooltip-text">Fale conosco</span>
+        </a>
+
+        <script src="script.js"></script>
 </body>
 </html>
