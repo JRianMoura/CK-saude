@@ -551,55 +551,6 @@ h1{
   fill: #232323;
   transform: scale(1.0);
  }
- /* ----------------------------------------------------------------------------------------- */
- 
- .card1:enabled {
-  box-shadow: 0 8px 10px rgba(255, 117, 24, 0.3);
- }
- 
- 
- .card1:enabled .card-info {
-  transform: translateY(-5%);
-}
- 
- .card1:enabled .card-social {
-  transform: translateY(10%);
-  opacity: 1;
-  background: rgba(255,255,255,0.8);
-  backdrop-filter: saturate(180%) blur('');
- }
-
- .card2:enabled {
-  box-shadow: 0 8px 10px rgba(255, 117, 24, 0.3);
- }
- .card2:enabled .card-info {
-  transform: translateY(-5%);
- }
- .card2:enabled .card-social {
-  transform: translateY(2%);
-  opacity: 1;
-  background: rgba(255,255,255,0.8);
-  backdrop-filter: saturate(180%) blur('');
- }
-
- .card3:enabled {
-  box-shadow: 0 8px 10px rgba(255, 117, 24, 0.3);
- }
- .card3:enabled .card-info {
-  transform: translateY(-5%);
- }
- .card3:enabled .card-social {
-  transform: translateY(10%);
-  opacity: 1;
-  background: rgba(255,255,255,0.8);
-  backdrop-filter: saturate(180%) blur('');
- }
- 
- .description svg:enabled {
-  fill: #232323;
-  transform: scale(1.0);
- }
- 
 /* --------------------------- PRODUCTS RENT RESPONSIVE --------------------------------- */
 
 @media screen and (max-width: 930px){
@@ -726,9 +677,6 @@ li{
 }
 
 .sale-card:hover .card-inner {
-  transform: rotateY(180deg);
-}
-.sale-card:enabled .card-inner {
   transform: rotateY(180deg);
 }
 
