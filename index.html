@@ -1,299 +1,357 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CK-saúde</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CK-saúde</title>
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@700&family=Ubuntu:wght@400;500&display=swap"
+    rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body>
-    
-    <div class="bg-home">
+
+  <div class="bg-home">
     <header>
-        <nav class="container">
-            <div class="name"><a class="name-ck" target="_blank" href="https://nurso.com.br/">CK-saúde</a></div>
-            <div class="logo"><img src="assets/icon-ck-saude.svg" alt="ícone da ck-saúde"></div>
-            <div class="navegation" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
-                <a href="#products-rent1"><button class="products">Produtos</button></a>
-                <button class="contacts" href="#">Contatos</button>
-            </div>
-        </nav>
-        <main class="hero">
-            <h1>PRODUTOS PARA SAÚDE - <strong>VENDA E LOCAÇÃO</strong></h1>
-            <p>ALUGUE ONLINE!</p>
-              <a  class="rent-online" href="https://www.nurso.com.br/" target="_blank"><button class="enter-contact">Ir para a área do cliente</button></a>
-        </main>
+      <nav class="container">
+        <div class="name"><a class="name-ck" target="_blank" href="https://nurso.com.br/">CK-saúde</a></div>
+        <div class="logo"><img src="assets/icon-ck-saude.svg" alt="ícone da ck-saúde"></div>
+        <div class="navegation" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+          <a href="#products-rent1"><button class="products">Produtos</button></a>
+          <button class="contacts" href="#">Contatos</button>
+        </div>
+      </nav>
+      <main class="hero">
+        <h1>PRODUTOS PARA SAÚDE - <strong>VENDA E LOCAÇÃO</strong></h1>
+        <p>ALUGUE ONLINE!</p>
+        <a class="rent-online" href="https://www.nurso.com.br/" target="_blank"><button class="enter-contact">Ir para a
+            área do cliente</button></a>
+      </main>
     </header>
+  </div>
+
+  <div class="about">
+    <div class="image-ck"><img src="./assets/imagens-ck.png" alt="lojas-ck-saúde"></div>
+    <div class="about-content">
+      <h3><strong>SOBRE</strong></h3>
+      <p class="text1">Vendemos e alugamos equipamentos hospitalares há 20 anos, com mais de 43 mil locações
+        realizadas.<br>
+        Todos os 1.135 equipamentos para locação são novos, higienizados e revisados antes de cada locação.<br>
+        Nosso sistema permite que o cliente alugue o seu equipamento de forma 100% online.</p>
+      <p class="text2">(Se o equipamento escolhido não te atender, você pode trocar quantas vezes quiser, basta levar o
+        equipamento até uma de nossas lojas.)</p>
+    </div>
+  </div>
+
+  <div class="products-rent" id="products-rent1">
+    <h4 class="tittle-rent">Alugue agora o equipamento ideal para a sua necessidade:</h4>
+    <p class="rent-itens">Oferecemos uma variedade de equipamentos médicos, incluindo camas hospitalares, cadeiras de
+      rodas, muletas, andadores, cadeiras de banho, escadinhas para cama, suportes para soro e colchões pneumáticos.</p>
+    <div class="products-cards" ontouchstart="iniciarAnimacao()">
+      <div class="card1">
+        <div class="card-info">
+          <div class="card-title">Cadeira de Rodas</div>
+        </div>
+        <ul class="card-social">
+          <p class="description">A cadeira de rodas é geralmente acionadas manualmente ou por meio de um sistema
+            motorizado. Também pode incluir apoios para os braços, apoios para os pés e um assento acolchoado para
+            garantir conforto. </p>
+        </ul>
+      </div>
+      <div class="card2">
+        <div class="card-info">
+          <div class="card-title">Camas Hospitalares</div>
+        </div>
+        <ul class="card-social">
+          <p class="description">Elas podem ser ajustadas em diferentes ângulos, como inclinação da cabeça ou dos pés,
+            para melhorar o conforto ou auxiliar em determinados tratamentos médicos. Além disso, as camas hospitalares
+            geralmente têm grades laterais que podem ser elevadas para ajudar na segurança e prevenir quedas.</p>
+        </ul>
+      </div>
+      <div class="card3">
+        <div class="card-info">
+          <div class="card-title">Muletas</div>
+        </div>
+        <ul class="card-social">
+          <p class="description"> As muletas são usadas para ajudar a distribuir o peso do corpo e aliviar a pressão nas
+            pernas, permitindo que o usuário se movimente com maior equilíbrio e apoio.</p>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="products-sale" id="products-sale1">
+    <h4 class="tittle-sale">Produtos e Serviços</h4>
+    <div class="card-sale" ontouchstart="iniciarAnimacao()">
+      <div class="sale-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h6 class="tittle-card-sale">Artigos para conforto e
+              prevenção</h6>
+            <ul>
+              <li>Travesseiros</li>
+              <li>Palmilhas</li>
+              <li>Almofadas terapêuticas</li>
+              <li>Rolos</li>
+              <li>Colchão pneumático e caixa de ovo</li>
+              <li>Adesivos para joanete</li>
+              <li>Barras de apoio</li>
+            </ul>
+          </div>
+          <div class="card-back">
+            <ul>
+              <li>Massageadores</li>
+              <li>Tornozeleiras</li>
+              <li>Joelheiras</li>
+              <li>Cotoveleiras</li>
+              <li>Munhequeiras</li>
+              <li>Meias de Compressão</li>
+              <li>Prancha de alongamento e muito mais</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="sale-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h6 class="tittle-card-sale">Artigos Esportivos</h6>
+            <ul>
+              <li>Acessórios para pilates e para yoga</li>
+              <li>Faixas elásticas</li>
+              <li>Thera-Band</li>
+              <li>Luvas de musculação</li>
+              <li>Halteres</li>
+              <li>Cones de agilidade</li>
+            </ul>
+          </div>
+
+          <div class="card-back">
+            <ul>
+              <li>Roda para exercícios abdominais</li>
+              <li>Apoio para flexão</li>
+              <li>Corda para pular</li>
+              <li>Disco de equilíbrio</li>
+              <li>Meias esportivas</li>
+              <li>Acessórios para natação</li>
+              <li>Kinesioterapia, dentre outros</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="sale-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <h6 class="tittle-card-sale">Artigos médicos e para reabilitação</h6>
+            <ul>
+              <li>Botas ortopédicas</li>
+              <li>Imobilizadores</li>
+              <li>Órteses</li>
+              <li>Talas</li>
+              <li>Colares cervicais e Tipóias</li>
+              <li>Bengalas</li>
+            </ul>
+
+          </div>
+          <div class="card-back">
+            <ul>
+              <li>Máscaras</li>
+              <li>Álcool em gel</li>
+              <li>Aparelho de pressão</li>
+              <li>Medidor de glicemia</li>
+              <li>Dentre outros</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="about">
-        <div class="image-ck"><img src="./assets/imagens-ck.png" alt="lojas-ck-saúde"></div>
-        <div class="about-content">
-            <h3><strong>SOBRE</strong></h3>
-            <p class="text1">Vendemos e alugamos equipamentos hospitalares há 20 anos, com mais de 43 mil locações realizadas.<br>
-                Todos os 1.135 equipamentos para locação são novos, higienizados e revisados antes de cada locação.<br>
-                Nosso sistema permite que o cliente alugue o seu equipamento de forma 100% online.</p>
-            <p class="text2">(Se o equipamento escolhido não te atender, você pode trocar quantas vezes  quiser, basta levar o equipamento até uma de nossas lojas.)</p>
-        </div>
+
+  </div>
+
+  <div class="location">
+    <h4 class="tittle-location">Venha Conhecer</h4>
+    <div class="index-map">
+      <div class="map">
+        <h6>Asa Sul</h6>
+
+        <iframe class="map-location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.9090170909617!2d-47.88855802496619!3d-15.808750723308606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3ad9df622ea1%3A0x2f801841b47fb2c2!2sCK-sa%C3%BAde%20%7C%20Filial%20Asa%20Sul!5e0!3m2!1spt-BR!2sbr!4v1689555649009!5m2!1spt-BR!2sbr"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="address">403 SUL BL B Lojas 10/11 DF, SHCS - Brasília, DF, 70237-520</p>
+        <p class="description-address">(A loja da Asa Sul está aberta de segunda à sexta de 8:00 as 18:00, e sábado de
+          9:00 às 13:00!)</p>
+      </div>
+      <div class="map">
+        <h6>Gilberto Salomão</h6>
+
+        <iframe class="map-location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61422.572090640315!2d-47.92718293713458!3d-15.808659077319358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2557137ea351%3A0x397989fe66ebc70d!2sCK-sa%C3%BAde%20%7C%20Filial%20Lago%20Sul!5e0!3m2!1spt-BR!2sbr!4v1689589514756!5m2!1spt-BR!2sbr"
+          width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="address">St. de Habitações Individuais Sul QI 5 Centro Comercial Gilberto Salomão Bloco I Loja 02 -
+          Lago Sul, Brasília - DF, 71615-560</p>
+
+        <p class="description-address">(A loja do Gilberto Salomão está aberta todos os dias, até mesmo aos domingos e
+          feriados!)</p>
+      </div>
+      <div class="map">
+        <h6>Taguatinga</h6>
+        <iframe class="map-location"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.9128962647583!2d-48.06414418546055!3d-15.824697938333914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a338dc6bb0895%3A0x6c78e65c45488f0c!2sCK-sa%C3%BAde%20%7C%20Filial%20Taguatinga!5e0!3m2!1spt-BR!2sbr!4v1689589769402!5m2!1spt-BR!2sbr"
+          width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="address">St. C Norte QNC 9 Lote 6 Loja 2 - Taguatinga Norte, Brasília - DF, 72115-590</p>
+        <p class="description-address">(A loja de Taguatinga está aberta de segunda à sexta de 8:00 as 18:00, e sábado
+          de 9:00 às 13:00!)</p>
+      </div>
     </div>
-    
-    <div class="products-rent" id="products-rent1">
-        <h4 class="tittle-rent">Alugue agora o equipamento ideal para a sua necessidade:</h4>
-        <p class="rent-itens">Oferecemos uma variedade de equipamentos médicos, incluindo camas hospitalares, cadeiras de rodas, muletas, andadores, cadeiras de banho, escadinhas para cama, suportes para soro e colchões pneumáticos.</p>
-        <div class="products-cards" ontouchstart="iniciarAnimacao()">
-            <div class="card1">
-                <div class="card-info">
-                <div class="card-title">Cadeira de Rodas</div>
-                </div>
-                <ul class="card-social">
-                <p class="description">A cadeira de rodas é geralmente acionadas manualmente ou por meio de um sistema motorizado. Também pode incluir apoios para os braços, apoios para os pés e um assento acolchoado para garantir conforto. </p>
-          </ul>
-            </div>
-            <div class="card2">
-                <div class="card-info">
-                <div class="card-title">Camas Hospitalares</div>
-                </div>
-                <ul class="card-social">
-                <p class="description">Elas podem ser ajustadas em diferentes ângulos, como inclinação da cabeça ou dos pés, para melhorar o conforto ou auxiliar em determinados tratamentos médicos. Além disso, as camas hospitalares geralmente têm grades laterais que podem ser elevadas para ajudar na segurança e prevenir quedas.</p>
-                </ul>
-            </div>
-            <div class="card3">
-                <div class="card-info">
-                <div class="card-title">Muletas</div>
-                </div>
-                <ul class="card-social">
-                <p class="description"> As muletas são usadas para ajudar a distribuir o peso do corpo e aliviar a pressão nas pernas, permitindo que o usuário se movimente com maior equilíbrio e apoio.</p>
-                </ul>
-            </div>
-        </div>
-    </div>
+  </div>
 
-    <div class="products-sale" id="products-sale1">
-        <h4 class="tittle-sale">Produtos e Serviços</h4>
-        <div class="card-sale" ontouchstart="iniciarAnimacao()">
-            <div class="sale-card">
-                <div class="card-inner">
-                  <div class="card-front">
-                    <h6 class="tittle-card-sale">Artigos para conforto e
-                        prevenção</h6>
-                    <ul>
-                        <li>Travesseiros</li>
-                        <li>Palmilhas</li>
-                        <li>Almofadas terapêuticas</li>
-                        <li>Rolos</li>
-                        <li>Colchão pneumático e caixa de ovo</li>
-                        <li>Adesivos para joanete</li>
-                        <li>Barras de apoio</li>
-                    </ul>
-                  </div>
-                  <div class="card-back">
-                    <ul>        
-                        <li>Massageadores</li>
-                        <li>Tornozeleiras</li>
-                        <li>Joelheiras</li>
-                        <li>Cotoveleiras</li>
-                        <li>Munhequeiras</li>
-                        <li>Meias de Compressão</li>
-                        <li>Prancha de alongamento e muito mais</li>
-                    </ul>
-                  </div>
-                </div>
-            </div>
-            <div class="sale-card">
-                <div class="card-inner">
-                  <div class="card-front">
-                    <h6 class="tittle-card-sale">Artigos Esportivos</h6>
-                    <ul>
-                        <li>Acessórios para pilates e para yoga</li>
-                        <li>Faixas elásticas</li>
-                        <li>Thera-Band</li>
-                        <li>Luvas de musculação</li>
-                        <li>Halteres</li>
-                        <li>Cones de agilidade</li>
-                    </ul>
-                  </div>
-
-                  <div class="card-back">
-                    <ul>
-                        <li>Roda para exercícios abdominais</li>
-                        <li>Apoio para flexão</li>
-                        <li>Corda para pular</li>
-                        <li>Disco de equilíbrio</li>
-                        <li>Meias esportivas</li>
-                        <li>Acessórios para natação</li>
-                        <li>Kinesioterapia, dentre outros</li>
-                    </ul>
-                  </div>
-                </div>
-            </div>
-            <div class="sale-card">
-                <div class="card-inner">
-                  <div class="card-front">
-                    <h6 class="tittle-card-sale">Artigos médicos e para reabilitação</h6>
-                    <ul>
-                        <li>Botas ortopédicas</li>
-                        <li>Imobilizadores</li>
-                        <li>Órteses</li>
-                        <li>Talas</li>
-                        <li>Colares cervicais e Tipóias</li>
-                        <li>Bengalas</li>
-                    </ul>
-
-                  </div>
-                  <div class="card-back">
-                    <ul>
-                        <li>Máscaras</li>
-                        <li>Álcool em gel</li>
-                        <li>Aparelho de pressão</li>
-                        <li>Medidor de glicemia</li>
-                        <li>Dentre outros</li>
-                    </ul>
-                  </div>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-    <div class="location">
-        <h4 class="tittle-location">Venha Conhecer</h4>
-        <div class="index-map">
-        <div class="map">
-            <h6>Asa Sul</h6>
-
-            <iframe class="map-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.9090170909617!2d-47.88855802496619!3d-15.808750723308606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a3ad9df622ea1%3A0x2f801841b47fb2c2!2sCK-sa%C3%BAde%20%7C%20Filial%20Asa%20Sul!5e0!3m2!1spt-BR!2sbr!4v1689555649009!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p class="address">403 SUL BL B Lojas 10/11 DF, SHCS - Brasília, DF, 70237-520</p>
-            <p class="description-address">(A loja da Asa Sul está aberta de segunda à sexta de 8:00 as 18:00, e sábado de 9:00 às 13:00!)</p>
-        </div>
-        <div class="map">
-            <h6>Gilberto Salomão</h6>
-
-            <iframe class="map-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61422.572090640315!2d-47.92718293713458!3d-15.808659077319358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2557137ea351%3A0x397989fe66ebc70d!2sCK-sa%C3%BAde%20%7C%20Filial%20Lago%20Sul!5e0!3m2!1spt-BR!2sbr!4v1689589514756!5m2!1spt-BR!2sbr" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p class="address">St. de Habitações Individuais Sul QI 5 Centro Comercial Gilberto Salomão Bloco I Loja 02 - Lago Sul, Brasília - DF, 71615-560</p>
-            
-            <p class="description-address">(A loja do Gilberto Salomão está aberta todos os dias, até mesmo aos domingos e feriados!)</p>
-        </div>
-        <div class="map">
-            <h6>Taguatinga</h6>
-            <iframe class="map-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.9128962647583!2d-48.06414418546055!3d-15.824697938333914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a338dc6bb0895%3A0x6c78e65c45488f0c!2sCK-sa%C3%BAde%20%7C%20Filial%20Taguatinga!5e0!3m2!1spt-BR!2sbr!4v1689589769402!5m2!1spt-BR!2sbr" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <p class="address">St. C Norte QNC 9 Lote 6 Loja 2 - Taguatinga Norte, Brasília - DF, 72115-590</p>
-            <p class="description-address">(A loja de Taguatinga está aberta de segunda à sexta de 8:00 as 18:00, e sábado de 9:00 às 13:00!)</p>
-        </div>
-    </div>
-    </div>
-
-    <div class="rate">
-        <h5 class="tittle-rate">Avaliações</h5>
-        <div class="card-rate">
-            <div class="rate-cards">
-                <div class="header">
-                    <div>
-                    <div class="stars">
-                      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                      </svg>
-                      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                      </svg>
-                      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                      </svg>
-                      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                      </svg>
-                      <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                      </svg>
-                    </div>
-                    <p class="name-client">Katyusha Souza</p>
-                  </div>
-                </div>
-        
-                <p class="message-client">
-                  Fui atendida rapidamente, por um funcionário muito educado que me explicou como o equipamento, que estava novo, funcionava. Além disso, as formas de pagamento são variadas e a renovação muito fácil, se necessária. Todas as dúvidas foram esclarecidas por mensagem. Recomendo.
-                </p>
-        </div>
-        <div class="rate-cards">
-            <div class="header">
-                <div>
-                <div class="stars">
-                  <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                </div>
-                <p class="name-client">Luiz Ricardo</p>
-              </div>
-            </div>
-    
-            <p class="message-client">Muito agradável, atendentes prestativos e prestaram todos os esclarecimentos necessários, fácil de locar o equipamento, preço bom, qualidade do material muito boa, gostei e recomendo
-            </p>
-    </div>
-    <div class="rate-cards">
+  <div class="rate">
+    <h5 class="tittle-rate">Avaliações</h5>
+    <div class="card-rate">
+      <div class="rate-cards">
         <div class="header">
-            <div>
+          <div>
             <div class="stars">
               <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
               </svg>
               <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
               </svg>
               <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
               </svg>
               <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
               </svg>
               <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+            </div>
+            <p class="name-client">Katyusha Souza</p>
+          </div>
+        </div>
+
+        <p class="message-client">
+          Fui atendida rapidamente, por um funcionário muito educado que me explicou como o equipamento, que estava
+          novo, funcionava. Além disso, as formas de pagamento são variadas e a renovação muito fácil, se necessária.
+          Todas as dúvidas foram esclarecidas por mensagem. Recomendo.
+        </p>
+      </div>
+      <div class="rate-cards">
+        <div class="header">
+          <div>
+            <div class="stars">
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+            </div>
+            <p class="name-client">Luiz Ricardo</p>
+          </div>
+        </div>
+
+        <p class="message-client">Muito agradável, atendentes prestativos e prestaram todos os esclarecimentos
+          necessários, fácil de locar o equipamento, preço bom, qualidade do material muito boa, gostei e recomendo
+        </p>
+      </div>
+      <div class="rate-cards">
+        <div class="header">
+          <div>
+            <div class="stars">
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
+              </svg>
+              <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                </path>
               </svg>
             </div>
             <p class="name-client">Darlam Macario</p>
           </div>
         </div>
 
-        <p class="message-client">A loja conta com inúmeros produtos ligados à saúde e recuperação fisica de pessoas. O diferencial da empresa está no excelente controle dos contratos vigentes e na facilidade de renová-los, pois oferecem vários canais de atendimento, facilitando demais a nossa vida. Parabéns ao estabelecimento!
+        <p class="message-client">A loja conta com inúmeros produtos ligados à saúde e recuperação fisica de pessoas. O
+          diferencial da empresa está no excelente controle dos contratos vigentes e na facilidade de renová-los, pois
+          oferecem vários canais de atendimento, facilitando demais a nossa vida. Parabéns ao estabelecimento!
         </p>
-        </div>
-        </div>
-        <a target="_blank" href="https://www.google.com/maps/place/CK-sa%C3%BAde+%7C+Filial+Asa+Sul/@-15.8087559,-47.888558,17z/data=!4m14!1m5!8m4!1e1!2s115256839311021288647!3m1!1e1!3m7!1s0x935a3ad9df622ea1:0x2f801841b47fb2c2!8m2!3d-15.8087559!4d-47.8859831!9m1!1b1!16s%2Fg%2F1v5_bhwr?hl=pt-BR&entry=ttu">(confira mais clicando aqui)</a>
-        </div>
-        <footer>
-          <h4>CK-SAÚDE</h4>
-          <div class="footer">
-            <img src="/assets/icon-ck-saude.svg" alt="logo-ck-footer">
-          </div>
-          <p>Copyright&copy; 2023 | Judson Rian  - Todos os direitos reservados.</p>
-        </footer>
-        <a href="https://api.whatsapp.com/send?phone=5561992042430&text=Ol%C3%A1,%20boa%20tarde!" 
-        class="btn-whatsapp"
-        target="_blank"
-        data-aos="zoom-in-up" data-aos-delay="300"
-        >
-          <img src="assets/whatsapp (1).png" alt="Botão whatsapp">
-          <span class="tooltip-text">Fale conosco</span>
-        </a>
+      </div>
+    </div>
+    <a target="_blank"
+      href="https://www.google.com/maps/place/CK-sa%C3%BAde+%7C+Filial+Asa+Sul/@-15.8087559,-47.888558,17z/data=!4m14!1m5!8m4!1e1!2s115256839311021288647!3m1!1e1!3m7!1s0x935a3ad9df622ea1:0x2f801841b47fb2c2!8m2!3d-15.8087559!4d-47.8859831!9m1!1b1!16s%2Fg%2F1v5_bhwr?hl=pt-BR&entry=ttu">(confira
+      mais clicando aqui)</a>
+  </div>
+  <footer>
+    <h4>CK-SAÚDE</h4>
+    <p>Copyright&copy; 2023 | Judson Rian - Todos os direitos reservados.</p>
+  </footer>
+  <a href="https://api.whatsapp.com/send?phone=5561992042430&text=Ol%C3%A1,%20boa%20tarde!" class="btn-whatsapp"
+    target="_blank" data-aos="zoom-in-up" data-aos-delay="300">
+    <img src="assets/whatsapp (1).png" alt="Botão whatsapp">
+    <span class="tooltip-text">Fale conosco</span>
+  </a>
 
-        <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>

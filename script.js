@@ -7,3 +7,4 @@ function iniciarAnimacao() {
         box.classList.remove("sale-card:hover, card-inner");
     }, 1000); 
 }
+
